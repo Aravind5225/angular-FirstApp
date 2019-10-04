@@ -1,0 +1,9 @@
+<p>
+cart works!
+</p>
+
+<div *ngFor="let item of items" class="cart-items">
+  <span> {{item.name}}</span>
+  <span> {{item.price|currency}}</span>
+<a  routerLink="/shipping">CheckOut</a>
+</div>
